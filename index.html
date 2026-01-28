@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<!-- __V3D_PUZZLES__ - enable Puzzles button in the App Manager -->
+<!-- __V3D_TEMPLATE__ - template-based file; delete this line to prevent this file from being updated -->
+<html lang="en">
+<head>
+  <title>Verge3D Web Interactive</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+  <!-- Search Engines -->
+  <meta name="description" content="Interactive 3D Web application made with Verge3D. Immerse yourself in amazing graphics experience offered by state-of-the art WebGL and HTML5 technologies.">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Verge3D Web Interactive">
+  <meta name="twitter:description" content="Interactive 3D Web application made with Verge3D. Immerse yourself in amazing graphics experience offered by state-of-the art WebGL and HTML5 technologies.">
+  <meta name="twitter:image:src" content="https://cdn.soft8soft.com/images/player_socials.jpg">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Verge3D Web Interactive">
+  <meta property="og:description" content="Interactive 3D Web application made with Verge3D. Immerse yourself in amazing graphics experience offered by state-of-the art WebGL and HTML5 technologies.">
+  <meta property="og:image" content="https://cdn.soft8soft.com/images/player_socials.jpg">
+  <meta property="og:type" content="website">
+
+  <meta name="generator" content="Verge3D 4.11.0">
+
+  <!-- favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="media/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="media/favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="media/favicon-16x16.png">
+  <link rel="manifest" href="media/manifest.json">
+  <link rel="mask-icon" href="media/safari-pinned-tab.svg" color="#0048a5">
+  <meta name="theme-color" content="#ffffff">
+
+  <script src="v3d.js"></script>
+  <script src="Neo 3M final.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="Neo 3M final.css">
+</head>
+
+<body>
+  <noscript>Your browser does not support JavaScript, that's why this Verge3D app could not be loaded. Try another browser or contact the <a href="https://www.soft8soft.com">developers</a> for help.</noscript>
+
+  <div id="v3d-container">
+
+<!-- === Panel de botones === -->
+<div id="panelBotones">
+
+    <!-- Primera fila -->
+    <div class="tituloFila">Tipos de bocas</div>
+    <div class="fila">
+        <button id="calibrada">Boca calibrada</button>
+        <button id="oscilante">Oscilante</button>    
+        <button id="abatible">Abatible simple</button>
+        <button id="tridimensional">Tridimensional</button>
+        <button id="tambor">*Tambor</button>
+        <button id="duo">*Duo</button>
+    </div>
+
+    <!-- Contenedor dinámico Fracción -->
+    <div id="filaFraccion" style="display: none;">
+        <div class="tituloFila">Fracción</div>
+        <div class="fila">
+            <button id="papel">Papel</button>
+            <button id="envases">Envases</button>
+            <button id="vidrio">Vidrio</button>
+            <button id="organico">Orgánico</button>
+        </div>
+    </div>
+
+    <!-- Sistema de elevación -->
+    <div class="tituloFila">Sistema de elevación</div>
+    <div class="fila">
+        <button id="F90">F90</button>
+        <button id="dobleGancho">Doble Gancho</button>
+        <button id="kinshofer">Kinshofer</button>
+    </div>
+
+    <!-- Doble boca -->
+    <div class="tituloFila">Doble boca</div>
+    <div class="fila">
+        <button id="dobleBocaNo">No</button>
+        <button id="dobleBocaSi">Sí</button>
+    </div>
+
+    <!-- Contenedor dinámico Pedal + Maneta -->
+    <div id="filaPedalManeta" style="display: none;">
+        <div class="tituloFila">Pedal</div>
+        <div class="fila">
+            <button id="pedalNo">No</button>
+            <button id="pedal1">Fontal</button>
+            <button id="pedal2">Trasero</button>
+            <button id="pedal3">Doble</button>
+        </div>
+
+        <div class="tituloFila">Maneta</div>
+        <div class="fila">
+            <button id="manetaNo">No</button>
+            <button id="maneta1">Fontal</button>
+            <button id="maneta2">Trasera</button>
+            <button id="maneta3">Doble</button>
+        </div>
+    </div>
+
+    <!-- Color RAL del contenedor -->
+    <div class="tituloFila">Color RAL del contenedor</div>
+    <div class="fila">
+        <button id="gris7005">Gris 7005</button>
+        <button id="gris7035">Gris 7035</button>
+        <button id="gris7037">Gris 7037</button>
+        <button id="gris7040">Gris 7040</button>
+        <button id="azul5002">Azul 5002</button>
+        <button id="amarillo1018">Amarillo 1018</button>
+        <button id="amarillo1021">Amarillo 1021</button>
+        <button id="verde6005">Verde 6005</button>
+        <button id="verde6018">Verde 6018</button>
+        <button id="verde6032">Verde 6032</button>
+        <button id="marron8011">Marrón 8011</button>
+        <button id="marron8024">Marrón 8024</button>
+    </div>
+
+</div>
+
+<!-- === Fin panel de botones moderno === -->
+
+
+<style>
+
+
+#pedal2, #pedal3, #maneta2, #maneta3 { display: none; }
+
+
+/* Panel general */
+#panelBotones {
+    position: absolute;           
+    top: 20px;
+    left: 20px;
+    padding: 15px;                
+    background-color: rgba(255,255,255,0.85);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.9);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 10;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Títulos fijos: siempre visibles, subrayados */
+#panelBotones > .tituloFila {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 6px;       /* espacio sobre el título */
+    margin-bottom: 0px;    /* espacio debajo del título */
+    border-bottom: 2px solid black; /* subrayado */
+    padding-bottom: 1px;    /* separa el texto de la línea */
+}
+
+
+/* Títulos dinámicos: pueden desaparecer, no subrayados */
+#filaFraccion .tituloFila,
+#filaPedalManeta .tituloFila {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 2px;
+    border-bottom: none;   /* nada de subrayado */
+}
+
+
+/* Filas de botones: separación consistente con título */
+#panelBotones .fila {
+    display: grid;
+    grid-template-columns: repeat(4, 90px);
+    grid-gap: 9px;
+    margin-top: 7px;       /* separación del título superior */
+    margin-bottom: 0px;    /* separación con el siguiente título */
+}
+
+
+/* Filas de botones */
+.fila {
+    display: grid;
+    grid-template-columns: repeat(4, 90px);
+    grid-gap: 10px;
+    margin-bottom: 3px; 
+}
+
+
+/* Espacio extra entre título y fila de botones */
+#panelBotones .fila {
+    margin-top: 6px;        /* separa del título superior */
+    margin-bottom: 0px;     
+}
+
+
+/* Estilo y tamaño de los botones */
+.fila button {
+    width: 92px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 12px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.fila button:hover { background-color: lightgray; }
+
+.fila button.activo { background-color: lightgray; }
+
+.fila button:active {
+    transform: translateY(2px);
+    box-shadow: inset 0 2px 4px rgba(0,0,0,1);
+}
+
+#filaDinamicaContainer:empty { display: none; }
+/* Álvaro Ruiz de Pedro */
+</style>
+
+
+<!-- Script limpio para botones dinámicos -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // Elementos Pedal/Maneta
+    const pedal2 = document.getElementById('pedal2');
+    const pedal3 = document.getElementById('pedal3');
+    const maneta2 = document.getElementById('maneta2');
+    const maneta3 = document.getElementById('maneta3');
+
+
+    // Filas dinámicas
+    const filaFraccion = document.getElementById('filaFraccion');
+    const filaPedalManeta = document.getElementById('filaPedalManeta');
+
+
+    // Mostrar/Ocultar según tipo de boca
+    function actualizarBoca(tipo) {
+        filaFraccion.style.display = (tipo === 'calibrada') ? 'block' : 'none';
+        filaPedalManeta.style.display = (tipo !== 'calibrada') ? 'block' : 'none';
+    }
+
+
+    // Manejar botones activos
+    function setupBotones(ids) {
+        ids.forEach(id => {
+            const btn = document.getElementById(id);
+            btn.addEventListener('click', () => {
+                ids.forEach(otherId => document.getElementById(otherId).classList.remove('activo'));
+                btn.classList.add('activo');
+            });
+        });
+    }
+
+
+    // Botones tipo de boca
+    const botonesBocas = ['calibrada', 'tambor', 'oscilante', 'abatible', 'tridimensional', 'duo'];
+    botonesBocas.forEach(id => {
+        document.getElementById(id).addEventListener('click', () => actualizarBoca(id));
+    });
+    setupBotones(botonesBocas);
+
+
+    // Configurar filas dinámicas
+    setupBotones(['papel', 'envases', 'vidrio', 'organico']);
+    setupBotones(['F90', 'dobleGancho', 'kinshofer']);
+    setupBotones(['dobleBocaNo', 'dobleBocaSi']);
+    setupBotones(['pedalNo', 'pedal1', 'pedal2', 'pedal3']);
+    setupBotones(['manetaNo', 'maneta1', 'maneta2', 'maneta3']);
+    setupBotones(['gris7005', 'gris7035', 'gris7037', 'gris7040', 'azul5002', 'amarillo1018', 'amarillo1021', 'verde6005', 'verde6018', 'verde6032', 'marron8011', 'marron8024']);
+
+
+    // Mostrar/Ocultar Pedal y Maneta según Doble Boca
+    const dobleBocaSi = document.getElementById('dobleBocaSi');
+    const dobleBocaNo = document.getElementById('dobleBocaNo');
+
+
+    dobleBocaSi.addEventListener('click', () => {
+        pedal2.style.display = 'block';
+        pedal3.style.display = 'block';
+        maneta2.style.display = 'block';
+        maneta3.style.display = 'block';
+    });
+
+    dobleBocaNo.addEventListener('click', () => {
+        [pedal2, pedal3, maneta2, maneta3].forEach(el => {
+            el.style.display = 'none';
+            el.classList.remove('activo');
+        });
+    });
+});
+</script>
+
+
+
+<div id="fullscreen-button" class="fullscreen-button fullscreen-open" title="Toggle fullscreen mode"></div>
+</div>
+
+</body>
+</html>

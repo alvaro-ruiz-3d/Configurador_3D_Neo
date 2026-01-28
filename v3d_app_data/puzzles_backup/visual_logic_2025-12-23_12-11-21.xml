@@ -1,0 +1,60 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="20" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="32.32800222053538" scrolly="25.143444029914235" scale="0.8869225959362116">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="{ghok:Tx,zP@/h9d.2b^" inline="false" x="570" y="290">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="CLkVzweT)XiNi6HqE9s*">
+          <field name="FIELDNAME">Boton Boca papel</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="show" id="c$$=/}oXWW=#01W4I*W,">
+          <value name="VALUE">
+            <shadow type="objectList" id=")E``3,i,jBuw9]0K|Swv">
+              <field name="FIELDNAME">Papel 3m lado1</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="hide" id="jp[e(F7_Hw,j=wBB.dnS">
+              <value name="VALUE">
+                <shadow type="objectList" id="CHF(GpU_/f:%,xYe|[3-">
+                  <field name="FIELDNAME">Envase 3m lado1</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id=";E1puSU%ev43x5t7-!0:" inline="false" x="570" y="430">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id=":dZ-Hc$G/Rn#Xg$x~-Z/">
+          <field name="FIELDNAME">Suelo</field>
+        </shadow>
+        <block type="allObjectList" id="c.n%9]+7F?E;Nw~|Bz*4"></block>
+      </value>
+      <statement name="DO">
+        <block type="show" id="Ibs~8$p66ylOo3tkCP}4">
+          <value name="VALUE">
+            <shadow type="objectList" id="ny~1uy9*Syn=,o%ss3Qy">
+              <field name="FIELDNAME">Papel 3m lado1</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1134" viewport-y="37" viewport-w="768" viewport-h="472.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

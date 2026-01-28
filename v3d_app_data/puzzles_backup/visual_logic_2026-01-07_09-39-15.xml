@@ -1,0 +1,397 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="-282.2155244098451" scrolly="170.41351527909273" scale="0.8815784698861313">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="k[,q]$E9q@{X3G+cD!bc" inline="false" x="550" y="-50">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="neKERbgkI9c#Af!*su[}">
+          <field name="FIELDNAME">Papel 3m lado1</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="tAc51M*fe:D_T!Y#/_rF">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="Hh)@xQFO?+Mt1#y[{RsO">
+              <field name="FIELDNAME">BDSF Azul</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="%+)2MxhG56u4H3ONDdZj">
+              <field name="FIELDNAME">Cuba 3m</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="]LeiQym#KrieqAK]IH-a" inline="false">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="zXqK6GtZ:5MosJuEBI7I">
+              <field name="FIELDNAME">Envase 3m lado1</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="assignMaterial" id="j?_OS_J5?C|*LgKpHSAT">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+              <value name="VALUE2">
+                <shadow type="materialList" id="G6y(o*NK9l)#82)}GI=:">
+                  <field name="FIELDNAME">BSDF Amarillo</field>
+                </shadow>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList" id="zUzA5hqzLq0w|oeSePli">
+                  <field name="FIELDNAME">Cuba 3m</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="whenClicked" id="[+DqwBRUmZy}Rn+Vd_1r" inline="false">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+              <field name="X_RAY">FALSE</field>
+              <field name="DOUBLE_CLICK">FALSE</field>
+              <field name="LEFT_BUTTON">TRUE</field>
+              <field name="MIDDLE_BUTTON">TRUE</field>
+              <field name="RIGHT_BUTTON">TRUE</field>
+              <value name="VALUE">
+                <shadow type="objectList" id="-G0@DINkJPwgD@@O[^h|">
+                  <field name="FIELDNAME">Vidrio 3m lado1</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="assignMaterial" id="*X2n?{@E[RMp@ugj%]Fh">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                  <value name="VALUE2">
+                    <shadow type="materialList" id=":2}5{.s=J^rt^izD][;=">
+                      <field name="FIELDNAME">BDSF Verde</field>
+                    </shadow>
+                  </value>
+                  <value name="VALUE1">
+                    <shadow type="objectList" id="Hf:g6=lM*NV=?$L8VMTc">
+                      <field name="FIELDNAME">Cuba 3m</field>
+                    </shadow>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="{ghok:Tx,zP@/h9d.2b^" inline="false" x="390" y="210">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="CLkVzweT)XiNi6HqE9s*">
+          <field name="FIELDNAME">Puertas inferiores</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="show" id="c$$=/}oXWW=#01W4I*W,">
+          <value name="VALUE">
+            <shadow type="objectList" id=")E``3,i,jBuw9]0K|Swv">
+              <field name="FIELDNAME">Suelo</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="assignMaterial" id="qyh+yRn/{5gGCY1F$939">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+              <value name="VALUE2">
+                <shadow type="materialList" id="/#H,GTd1dXH59jDa8bbz">
+                  <field name="FIELDNAME">BSDF</field>
+                </shadow>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList" id="H71Q3sk!#O.VQ2Im~-lW">
+                  <field name="FIELDNAME">Cuba 3m</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setShadowParam" id="|2i`z:$5d/ee,{2XwS*J">
+                  <field name="CAST_RECEIVE">CAST</field>
+                  <field name="DO_WHAT">ENABLE</field>
+                  <value name="TARGET">
+                    <shadow type="objectList" id=")IWs1(N9mqZSG,RzD~GR">
+                      <field name="FIELDNAME">Doble gancho</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="{:|];.t1df?dxjlenq;J" inline="false" x="910" y="210">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="W^k@d7#p*TviYLV;d2c}">
+          <field name="FIELDNAME">Cuba 3m</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="setShadowParam" id="rgb9Ke.~tD?yrinw-~:s">
+          <field name="CAST_RECEIVE">CAST</field>
+          <field name="DO_WHAT">DISABLE</field>
+          <value name="TARGET">
+            <shadow type="objectList" id="_MoUq6}0{pJ.xTxRw-f]">
+              <field name="FIELDNAME">Doble gancho</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="assignMaterial" id="~AfVto;zH)mPgwVIZ*my">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+              <value name="VALUE2">
+                <shadow type="materialList" id="KD]jOy/_{SdV_fz_~Pe)">
+                  <field name="FIELDNAME">BSDF</field>
+                </shadow>
+              </value>
+              <value name="VALUE1">
+                <shadow type="objectList" id="0b3O*(vwte2gmz2^Z1U-">
+                  <field name="FIELDNAME">Cuba 3m</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="|M%4@-A@Bo`Yv_h8{o,c" x="530" y="350">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="[Aj3`ZM{_/Tf}gMySbVU">
+          <field name="TEXT">papel</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="show" id="[Ah1613Azz%dyuP~s/1G">
+          <value name="VALUE">
+            <shadow type="objectList" id="6s3axPf4;4:A/0ZnF;tF">
+              <field name="FIELDNAME">Papel 3m lado1</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="hide" id="}UIQ*Okag4dqkYZU/BiX">
+              <value name="VALUE">
+                <shadow type="objectList" id="-~QirCvx]?W?uY*n6#!^">
+                  <field name="FIELDNAME">Envase 3m lado1</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="hide" id="Q)~D1b]vdhNZ%?$xlvF[">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="vrBdf,e*i$_z-biByK26">
+                      <field name="FIELDNAME">Vidrio 3m lado1</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="J(s)kpz;#~1?[3,aZP3;" x="970" y="350">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="pH]-+lTq(.GfRNi`C*=;">
+          <field name="TEXT">envases</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="show" id="{`A)7ti*PT^}~#BOf-6|">
+          <value name="VALUE">
+            <shadow type="objectList" id="xU#oB4vpu7[*1h$SgT`V">
+              <field name="FIELDNAME">Envase 3m lado1</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="hide" id="o(q=j64sPAyy8:GNPgJh">
+              <value name="VALUE">
+                <shadow type="objectList" id="-62Prm%nB[^xSu;v@01O">
+                  <field name="FIELDNAME">Papel 3m lado1</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="hide" id="_nFP4OmOg3wD/*{/2cy^">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="*jR(BI%.}kWf|Sg@pFkC">
+                      <field name="FIELDNAME">Vidrio 3m lado1</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="+dry{id-fz!XlwzOX[S$" x="1430" y="350">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="Oq{[Lx4.p)RnqbL),dqi">
+          <field name="TEXT">vidrio</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="show" id="3]e%^0}RG*c]62v}mALl">
+          <value name="VALUE">
+            <shadow type="objectList" id="Dj@-LP?_~}.9../-t(;,">
+              <field name="FIELDNAME">Vidrio 3m lado1</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="hide" id="Tk^w:7S+j)/G]kAUxoV)">
+              <value name="VALUE">
+                <shadow type="objectList" id="+u98aTuWwEg42r_Krekq">
+                  <field name="FIELDNAME">Envase 3m lado1</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="hide" id="2K!U:O?$]KakteRAU/kN">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="mh$QE2a8Gcj1qy8VfQ8j">
+                      <field name="FIELDNAME">Papel 3m lado1</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="ZCShm1EBr6s90|%Y#`O/" x="530" y="510">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="!3kWywg]a`[F+.~0,i5z">
+          <field name="TEXT">F90</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="show" id="SX2:8AjT@Rf9IiC5+pU[">
+          <value name="VALUE">
+            <shadow type="objectList" id="SNG*z@UandS4H6;!|x9p">
+              <field name="FIELDNAME">F90</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="hide" id="j??dc$wmQe*M~=4hKIre">
+              <value name="VALUE">
+                <shadow type="objectList" id="t%H`m18W[k3X%IHnE6GR">
+                  <field name="FIELDNAME">Doble gancho</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="hide" id="|(@#[o^wbtI?JQ|d4+iN">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="HO+VL#jQ:*i2np(@Y;EM">
+                      <field name="FIELDNAME">Kinshofer</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="EX2[bI?Cm7bTv1uZZOSn" x="970" y="510">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="GsVl6c-VT5s{`3H9]wF,">
+          <field name="TEXT">dobleGancho</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="show" id=",{F%.BtX:MZVR*r1P^}$">
+          <value name="VALUE">
+            <shadow type="objectList" id="@mBaP]IHXR;Wt~Se}#NT">
+              <field name="FIELDNAME">Doble gancho</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="hide" id="tEza`{2M?x?(ucr}7-:R">
+              <value name="VALUE">
+                <shadow type="objectList" id=")H8^OFSg2V3Hk~y5ERx2">
+                  <field name="FIELDNAME">F90</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="hide" id="-+gfFCdAf(~EE@=orx/9">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="v.OWn9OdfWpMuM,mG2=U">
+                      <field name="FIELDNAME">Kinshofer</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="*$!ZolsaHK;3U=Y|~GMS" x="1430" y="510">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="gKWViN6;/Q,{@$|ZaJ^?">
+          <field name="TEXT">kinshofer</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="show" id="WGO;Me-]/qiIQv!q3Qji">
+          <value name="VALUE">
+            <shadow type="objectList" id="C$.Fe{i`H7I{bet}|Un9">
+              <field name="FIELDNAME">Kinshofer</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="hide" id="Ior1Y{B_L*SSNgg-VP,Y">
+              <value name="VALUE">
+                <shadow type="objectList" id="y!xbzyGF_e[N=29T=5Ln">
+                  <field name="FIELDNAME">F90</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="hide" id="^`IbJt|A%+n9S3:X5J}D">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="(O)3kdYd_QCA5{C.r3s!">
+                      <field name="FIELDNAME">Doble gancho</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1134" viewport-y="37" viewport-w="768" viewport-h="394.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
