@@ -1,10 +1,10 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <tab name="Init" type="InitTab" active="false" scrollx="19.999999999999773" scrolly="0" scale="0.9"></tab>
-  <tab name="Botones" type="CommonTab" active="true" scrollx="-560.7001096291367" scrolly="705.5377436271449" scale="0.746215411653612">
+  <tab name="Botones" type="CommonTab" active="true" scrollx="-2462.452880859376" scrolly="1190.5379638671875" scale="1">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="HLP3UA5swObV~]e@}D/7">Doble boca activada</variable>
     </variables>
-    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="43?J-Q:2yRjQ^W9KwZ5A" x="2650" y="-1190">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="43?J-Q:2yRjQ^W9KwZ5A" x="2630" y="-1130">
       <field name="EVENT">click</field>
       <field name="PARENT">FALSE</field>
       <value name="ID">
@@ -495,7 +495,7 @@
                                     <block type="show" id="T,CpqoZkHV(8.tO}~URn">
                                       <value name="VALUE">
                                         <shadow type="objectList" id="wyc[$;Vp-_@K[2,fJg[$">
-                                          <field name="FIELDNAME">Abatible</field>
+                                          <field name="FIELDNAME">Abatible1</field>
                                         </shadow>
                                       </value>
                                       <next>
@@ -641,69 +641,87 @@
                                     <block type="show" id="uw^OY_QY0-N30)z$Mjkf">
                                       <value name="VALUE">
                                         <shadow type="objectList" id="jh?r}BkSv5U]HLcF,0w3">
-                                          <field name="FIELDNAME">Abatible</field>
+                                          <field name="FIELDNAME">Abatible1</field>
                                         </shadow>
                                       </value>
                                       <next>
                                         <block type="show" id="|v0`zKJ`J!pI!Ya%~/y-">
                                           <value name="VALUE">
                                             <shadow type="objectList" id="{QIi`m}:OfZF]de@HX{j">
-                                              <field name="FIELDNAME">Tridimensional11</field>
+                                              <field name="FIELDNAME">Tridimensional1</field>
                                             </shadow>
                                           </value>
                                           <next>
-                                            <block type="controls_if" id="ZFMr`7gqtyj?[.T5U$+T">
-                                              <value name="IF0">
-                                                <block type="logic_compare" id="!OQM6APT#f2},}3;IvXQ">
-                                                  <field name="OP">EQ</field>
-                                                  <value name="A">
-                                                    <block type="variables_get" id="oW3u28sUBP{]2maI.;C[">
-                                                      <field name="VAR" id="HLP3UA5swObV~]e@}D/7">Doble boca activada</field>
-                                                    </block>
-                                                  </value>
-                                                  <value name="B">
-                                                    <block type="logic_boolean" id="E85gY;qEVC)ZIn{N6.BU">
-                                                      <field name="BOOL">TRUE</field>
-                                                    </block>
-                                                  </value>
-                                                </block>
+                                            <block type="show" id="T#jB}5})g/ex,kpW(Ws}">
+                                              <value name="VALUE">
+                                                <shadow type="objectList" id="c;WUi_yfzoTQ:irS.GE,">
+                                                  <field name="FIELDNAME">Tapa Bocas lado1</field>
+                                                </shadow>
                                               </value>
-                                              <statement name="DO0">
-                                                <block type="hide" id="oJ*Cmfo;P!+vh:sOlqYd">
-                                                  <value name="VALUE">
-                                                    <shadow type="objectList" id="Jp]}QF6-)?h#[HVu}qr}">
-                                                      <field name="FIELDNAME">Cuba 3m</field>
-                                                    </shadow>
+                                              <next>
+                                                <block type="controls_if" id="ZFMr`7gqtyj?[.T5U$+T">
+                                                  <value name="IF0">
+                                                    <block type="logic_compare" id="!OQM6APT#f2},}3;IvXQ">
+                                                      <field name="OP">EQ</field>
+                                                      <value name="A">
+                                                        <block type="variables_get" id="oW3u28sUBP{]2maI.;C[">
+                                                          <field name="VAR" id="HLP3UA5swObV~]e@}D/7">Doble boca activada</field>
+                                                        </block>
+                                                      </value>
+                                                      <value name="B">
+                                                        <block type="logic_boolean" id="E85gY;qEVC)ZIn{N6.BU">
+                                                          <field name="BOOL">TRUE</field>
+                                                        </block>
+                                                      </value>
+                                                    </block>
                                                   </value>
-                                                  <next>
-                                                    <block type="show" id="mT=tGA|FP+wM$WGx,by=">
+                                                  <statement name="DO0">
+                                                    <block type="hide" id="oJ*Cmfo;P!+vh:sOlqYd">
                                                       <value name="VALUE">
-                                                        <shadow type="objectList" id="T3KRw`WcMB$4Pr(-T{:F">
-                                                          <field name="FIELDNAME">Cuba 3m doble boca</field>
+                                                        <shadow type="objectList" id="Jp]}QF6-)?h#[HVu}qr}">
+                                                          <field name="FIELDNAME">Cuba 3m</field>
                                                         </shadow>
                                                       </value>
                                                       <next>
-                                                        <block type="show" id="{pexi:##}Y,a2%J1Ni^D">
+                                                        <block type="show" id="mT=tGA|FP+wM$WGx,by=">
                                                           <value name="VALUE">
-                                                            <shadow type="objectList" id="s2YhVfLQ0IkLho/.,Lh2">
-                                                              <field name="FIELDNAME">Abatible2</field>
+                                                            <shadow type="objectList" id="T3KRw`WcMB$4Pr(-T{:F">
+                                                              <field name="FIELDNAME">Cuba 3m doble boca</field>
                                                             </shadow>
                                                           </value>
                                                           <next>
-                                                            <block type="show" id="0qI]Why.O48%#~,yM/j_">
+                                                            <block type="show" id="{pexi:##}Y,a2%J1Ni^D">
                                                               <value name="VALUE">
-                                                                <shadow type="objectList" id="akGy%A5.m8;Ojzsol2|w">
-                                                                  <field name="FIELDNAME">Tridimensional22</field>
+                                                                <shadow type="objectList" id="s2YhVfLQ0IkLho/.,Lh2">
+                                                                  <field name="FIELDNAME">Abatible2</field>
                                                                 </shadow>
                                                               </value>
+                                                              <next>
+                                                                <block type="show" id="0qI]Why.O48%#~,yM/j_">
+                                                                  <value name="VALUE">
+                                                                    <shadow type="objectList" id="akGy%A5.m8;Ojzsol2|w">
+                                                                      <field name="FIELDNAME">Tridimensional2</field>
+                                                                    </shadow>
+                                                                  </value>
+                                                                  <next>
+                                                                    <block type="show" id="eh~~A*VmdN!a:n$=sGKp">
+                                                                      <value name="VALUE">
+                                                                        <shadow type="objectList" id="k2)uzTQO~lM9o_r8,R*O">
+                                                                          <field name="FIELDNAME">Tapa Bocas lado2</field>
+                                                                        </shadow>
+                                                                      </value>
+                                                                    </block>
+                                                                  </next>
+                                                                </block>
+                                                              </next>
                                                             </block>
                                                           </next>
                                                         </block>
                                                       </next>
                                                     </block>
-                                                  </next>
+                                                  </statement>
                                                 </block>
-                                              </statement>
+                                              </next>
                                             </block>
                                           </next>
                                         </block>
@@ -725,7 +743,7 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="hide" id="Y-:A#w6bwSzyV6~1D%|c" x="3270" y="-930">
+    <block xmlns="https://developers.google.com/blockly/xml" type="hide" id="Y-:A#w6bwSzyV6~1D%|c" x="3090" y="-990">
       <value name="VALUE">
         <shadow type="objectList" id="+!F7/liH/KMuklFeyp8a">
           <field name="FIELDNAME">Scene</field>
@@ -741,60 +759,40 @@
           <field name="RIGHT_BUTTON">TRUE</field>
           <value name="VALUE">
             <shadow type="objectList" id="wc]oMaAw4X!5`,xZxt/E">
-              <field name="FIELDNAME">&lt;none&gt;</field>
+              <field name="FIELDNAME">Puertas inferiores</field>
             </shadow>
           </value>
           <statement name="DO">
-            <block type="show" id="85IzL=$HT|}B-:XPHtYV">
-              <value name="VALUE">
-                <shadow type="objectList" id="GY+{}%pcAM~J[mzA_VO`">
-                  <field name="FIELDNAME">Scene</field>
-                </shadow>
-              </value>
-              <next>
-                <block type="hide" id="HNa2dI@n3*OK#%6u^IwG">
+            <block type="controls_ifelse" id="8@fI1r.t1H)_1c44{.Xy">
+              <value name="IF0">
+                <block type="isObjectVisible" id="`(#{3[CbZs/Z`@g]O1ZM">
                   <value name="VALUE">
-                    <shadow type="objectList" id="fa$uf=kpkv:M|}:R@Td1">
-                      <field name="FIELDNAME">Suelo sin fondo</field>
-                    </shadow>
-                  </value>
-                </block>
-              </next>
-            </block>
-          </statement>
-          <next>
-            <block type="whenClicked" id=";/9URk|OlFJn{LpNE_qe" inline="false">
-              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
-              <field name="X_RAY">FALSE</field>
-              <field name="DOUBLE_CLICK">FALSE</field>
-              <field name="LEFT_BUTTON">TRUE</field>
-              <field name="MIDDLE_BUTTON">TRUE</field>
-              <field name="RIGHT_BUTTON">TRUE</field>
-              <value name="VALUE">
-                <shadow type="objectList" id="EU@vUL72}|e%;C5h)U{?">
-                  <field name="FIELDNAME">&lt;none&gt;</field>
-                </shadow>
-              </value>
-              <statement name="DO">
-                <block type="hide" id="#N@3KsnEu9.gTpL76h$?">
-                  <value name="VALUE">
-                    <shadow type="objectList" id="}w`agl9sD(iNM2Au/lfC">
+                    <shadow type="objectList" id="u(D$c}vvv5*W5HAvl|a4">
                       <field name="FIELDNAME">Scene</field>
                     </shadow>
                   </value>
-                  <next>
-                    <block type="show" id="KzHV*stVGH,3X2Nb1IN3">
-                      <value name="VALUE">
-                        <shadow type="objectList" id=".2w12iEZmvDLC?Pk=L1Z">
-                          <field name="FIELDNAME">Suelo sin fondo</field>
-                        </shadow>
-                      </value>
-                    </block>
-                  </next>
+                </block>
+              </value>
+              <statement name="DO0">
+                <block type="hide" id="vV]K0G`?FD?7~MFrI%]H">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="/Qy*}c}yLP*Z|n`N8bXX">
+                      <field name="FIELDNAME">Scene</field>
+                    </shadow>
+                  </value>
+                </block>
+              </statement>
+              <statement name="ELSE">
+                <block type="show" id="136mEnr`8iw-#g$:KKkL">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="Tm#qa)5c!U[Dp0e5tAqm">
+                      <field name="FIELDNAME">Scene</field>
+                    </shadow>
+                  </value>
                 </block>
               </statement>
             </block>
-          </next>
+          </statement>
         </block>
       </next>
     </block>
@@ -832,6 +830,36 @@
                   <field name="FIELDNAME">Cuba 3m doble boca</field>
                 </shadow>
               </value>
+              <next>
+                <block type="assignMaterial" id="@1,:C_*Wwu_=GWmygCa5">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                  <value name="VALUE2">
+                    <shadow type="materialList" id="D#_ud`t]N`H[N2(tsA5R">
+                      <field name="FIELDNAME">Gris7005</field>
+                    </shadow>
+                  </value>
+                  <value name="VALUE1">
+                    <shadow type="objectList" id="b@H]pmyJpB{,^G{r9ZXQ">
+                      <field name="FIELDNAME">Oscilante</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="assignMaterial" id="OG0?S=/ApLg`mw6ac1kN">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                      <value name="VALUE2">
+                        <shadow type="materialList" id="~zzLKv;kl6Cmh.+MYy_F">
+                          <field name="FIELDNAME">Gris7005</field>
+                        </shadow>
+                      </value>
+                      <value name="VALUE1">
+                        <shadow type="objectList" id="W,99[b_sY+jwr{i-,QT~">
+                          <field name="FIELDNAME">Oscilante2</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
             </block>
           </next>
         </block>
@@ -871,6 +899,36 @@
                       <field name="FIELDNAME">Cuba 3m doble boca</field>
                     </shadow>
                   </value>
+                  <next>
+                    <block type="assignMaterial" id="P`#4F7sF@XUl?z3JptsD">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                      <value name="VALUE2">
+                        <shadow type="materialList" id="ysN@X-.CD,!T@F21vOpC">
+                          <field name="FIELDNAME">Gris7035</field>
+                        </shadow>
+                      </value>
+                      <value name="VALUE1">
+                        <shadow type="objectList" id="L@6uB4$rza]cgWBuQDO7">
+                          <field name="FIELDNAME">Oscilante</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="assignMaterial" id="4r$|-bh;|O:ml%1wRLEH">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                          <value name="VALUE2">
+                            <shadow type="materialList" id="mB!I?}N`~,KKJs;La4_B">
+                              <field name="FIELDNAME">Gris7035</field>
+                            </shadow>
+                          </value>
+                          <value name="VALUE1">
+                            <shadow type="objectList" id="dji;ALd+2K14a},^SRXb">
+                              <field name="FIELDNAME">Oscilante2</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
                 </block>
               </next>
             </block>
@@ -910,6 +968,36 @@
                           <field name="FIELDNAME">Cuba 3m doble boca</field>
                         </shadow>
                       </value>
+                      <next>
+                        <block type="assignMaterial" id="zlzIOcm3zG`owNP^_ozk">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                          <value name="VALUE2">
+                            <shadow type="materialList" id="G`.q)VS:jpnv{79vZMd3">
+                              <field name="FIELDNAME">Gris7037</field>
+                            </shadow>
+                          </value>
+                          <value name="VALUE1">
+                            <shadow type="objectList" id="a,`EOK6aZ`eoJ2cz(3-G">
+                              <field name="FIELDNAME">Oscilante</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="assignMaterial" id="WEq9SdMB0Z3`0rEZ4Wi_">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                              <value name="VALUE2">
+                                <shadow type="materialList" id="(P|wzvy)9EAqb0)a}I|!">
+                                  <field name="FIELDNAME">Gris7037</field>
+                                </shadow>
+                              </value>
+                              <value name="VALUE1">
+                                <shadow type="objectList" id="=f#bHErj~qon0Ql,diWH">
+                                  <field name="FIELDNAME">Oscilante2</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
                     </block>
                   </next>
                 </block>
@@ -949,6 +1037,36 @@
                               <field name="FIELDNAME">Cuba 3m doble boca</field>
                             </shadow>
                           </value>
+                          <next>
+                            <block type="assignMaterial" id="8^@5SMj]@))I%O~xSSd+">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                              <value name="VALUE2">
+                                <shadow type="materialList" id="N;/!2KcLn2biVu0jvElN">
+                                  <field name="FIELDNAME">Gris7040</field>
+                                </shadow>
+                              </value>
+                              <value name="VALUE1">
+                                <shadow type="objectList" id="Lp=yzM^(dir,6v;,tz9u">
+                                  <field name="FIELDNAME">Oscilante</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="assignMaterial" id="~n)+15v*rkkqjwRs+dDx">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                                  <value name="VALUE2">
+                                    <shadow type="materialList" id=";S(Kf9=D0}f:EE;:K))x">
+                                      <field name="FIELDNAME">Gris7040</field>
+                                    </shadow>
+                                  </value>
+                                  <value name="VALUE1">
+                                    <shadow type="objectList" id="@s9{NWW,3sP);M+grj6#">
+                                      <field name="FIELDNAME">Oscilante2</field>
+                                    </shadow>
+                                  </value>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
                         </block>
                       </next>
                     </block>
@@ -2381,7 +2499,7 @@
                                                     <block type="hide" id="Ye(-@H=Sr[8yh/4Hm}fX">
                                                       <value name="VALUE">
                                                         <shadow type="objectList" id="9I,;`R;c4F7jIYCwT4t8">
-                                                          <field name="FIELDNAME">Tridimensional22</field>
+                                                          <field name="FIELDNAME">Tridimensional2</field>
                                                         </shadow>
                                                       </value>
                                                       <next>
@@ -2576,6 +2694,15 @@
                                           <field name="FIELDNAME">Oscilante2</field>
                                         </shadow>
                                       </value>
+                                      <next>
+                                        <block type="show" id="MJ7M/LQJd3J/pos6m,RN">
+                                          <value name="VALUE">
+                                            <shadow type="objectList" id="UhjtEUTh4;v][tB;LE}h">
+                                              <field name="FIELDNAME">Tapa Bocas lado2</field>
+                                            </shadow>
+                                          </value>
+                                        </block>
+                                      </next>
                                     </block>
                                   </statement>
                                   <next>
@@ -2584,7 +2711,7 @@
                                         <block type="isObjectVisible" id="T-|y76w-06!XHIxS/w|`">
                                           <value name="VALUE">
                                             <shadow type="objectList" id="rOf~F|ke7vFD6*+oo=iW">
-                                              <field name="FIELDNAME">&lt;none&gt;</field>
+                                              <field name="FIELDNAME">Abatible1</field>
                                             </shadow>
                                           </value>
                                         </block>
@@ -2593,9 +2720,18 @@
                                         <block type="show" id="xaC*0!l}JPd^{PBxPp{^">
                                           <value name="VALUE">
                                             <shadow type="objectList" id="xE9d.OA)O)cjZK}`yJQD">
-                                              <field name="FIELDNAME">&lt;none&gt;</field>
+                                              <field name="FIELDNAME">Abatible2</field>
                                             </shadow>
                                           </value>
+                                          <next>
+                                            <block type="show" id="VnoQAP7i/n]Az8!wi=yg">
+                                              <value name="VALUE">
+                                                <shadow type="objectList" id="+{ShLJNYpe/;tdcj]7nC">
+                                                  <field name="FIELDNAME">Tapa Bocas lado2</field>
+                                                </shadow>
+                                              </value>
+                                            </block>
+                                          </next>
                                         </block>
                                       </statement>
                                       <next>
@@ -2604,7 +2740,7 @@
                                             <block type="isObjectVisible" id="nv/lv(A~?yRuEsEK(Azg">
                                               <value name="VALUE">
                                                 <shadow type="objectList" id="gDf2I/`Is0sOf{zD0XWq">
-                                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                                  <field name="FIELDNAME">Tridimensional1</field>
                                                 </shadow>
                                               </value>
                                             </block>
@@ -2613,9 +2749,18 @@
                                             <block type="show" id="3KW]M!Id%,M4hI_8k*$+">
                                               <value name="VALUE">
                                                 <shadow type="objectList" id="3%DSKy,z^mu9IMsr{`.T">
-                                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                                  <field name="FIELDNAME">Abatible2</field>
                                                 </shadow>
                                               </value>
+                                              <next>
+                                                <block type="show" id="h|8zio`xgk)tbN7@$T^@">
+                                                  <value name="VALUE">
+                                                    <shadow type="objectList" id="crRx9x2ZLvv():tBNTpr">
+                                                      <field name="FIELDNAME">Tridimensional2</field>
+                                                    </shadow>
+                                                  </value>
+                                                </block>
+                                              </next>
                                             </block>
                                           </statement>
                                           <next>
@@ -2636,15 +2781,6 @@
                                                       <field name="FIELDNAME">cilindro2</field>
                                                     </shadow>
                                                   </value>
-                                                  <next>
-                                                    <block type="show" id="Xk~i4fYK;R`W4F1`c@Qt">
-                                                      <value name="VALUE">
-                                                        <shadow type="objectList" id="C2a[,UM(KT:Ac.uwr^yc">
-                                                          <field name="FIELDNAME">&lt;none&gt;</field>
-                                                        </shadow>
-                                                      </value>
-                                                    </block>
-                                                  </next>
                                                 </block>
                                               </statement>
                                             </block>
@@ -2668,7 +2804,7 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="Z;wRNJaqRxm1|Q{1O$I/" x="470" y="1490">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="Z;wRNJaqRxm1|Q{1O$I/" x="1530" y="1150">
       <field name="EVENT">click</field>
       <field name="PARENT">FALSE</field>
       <value name="ID">
@@ -2782,7 +2918,7 @@
         </block>
       </next>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="^@~jFn3|gk9tSIuBCOo-" x="1690" y="1470">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="^@~jFn3|gk9tSIuBCOo-" x="1530" y="1670">
       <field name="EVENT">click</field>
       <field name="PARENT">FALSE</field>
       <value name="ID">
