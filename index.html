@@ -42,23 +42,31 @@
 
   <div id="v3d-container">
 
+
 <!-- === Panel de botones === -->
 <div id="panelBotones">
 
-    <!-- Primera fila -->
-    <div class="tituloFila">Tipos de bocas</div>
-    <div class="fila">
-        <button id="calibrada">Boca calibrada</button>
-        <button id="oscilante">Oscilante</button>    
-        <button id="abatible">Abatible simple</button>
-        <button id="tridimensional">Tridimensional</button>
-        <button id="tambor">*Tambor</button>
-        <button id="duo">*Duo</button>
+
+    <!-- Tipos de bocas -->
+<div class="seccion">
+    <div class="subseccion">
+        <div class="tituloFila">Tipos de bocas</span></div>
+        <div class="fila">
+            <button id="oscilante">Oscilante</button> 
+            <button id="calibrada">Boca calibrada</button>
+            <button id="abatible">Abatible simple</button>
+            <button id="tridimensional">Tridimensional</button>
+            <button id="tambor">*Tambor</button>
+            <button id="duo">*Duo</button>
+        </div>
     </div>
 
     <!-- Contenedor dinámico Fracción -->
-    <div id="filaFraccion" style="display: none;">
-        <div class="tituloFila">Fracción</div>
+    <div class="subseccion" id="filaFraccion" style="display: none;">
+
+    <div class="tituloFila">
+        <span class="tituloTexto">Fracción</span>
+    </div>
         <div class="fila">
             <button id="papel">Papel</button>
             <button id="envases">Envases</button>
@@ -68,31 +76,54 @@
     </div>
 
     <!-- Sistema de elevación -->
-    <div class="tituloFila">Sistema de elevación</div>
-    <div class="fila">
-        <button id="F90">F90</button>
-        <button id="dobleGancho">Doble Gancho</button>
-        <button id="kinshofer">Kinshofer</button>
+    <div class="subseccion">
+        <div class="tituloFila">Sistema de elevación</span></div>
+        <div class="fila">
+            <button id="F90">F90</button>
+            <button id="dobleGancho">Doble Gancho</button>
+            <button id="kinshofer">Kinshofer</button>
+        </div>
+    </div>
+
+    <!-- Serigrafías -->
+    <div class="subseccion">
+        <div class="tituloFila">Serigrafías</span></div>
+        <div class="fila">
+            <button id="serigrafiaNo">No</button>
+            <button id="serigrafiaSi">*Sí</button>
+        </div>
     </div>
 
     <!-- Doble boca -->
-    <div class="tituloFila">Doble boca</div>
-    <div class="fila">
-        <button id="dobleBocaNo">No</button>
-        <button id="dobleBocaSi">Sí</button>
+    <div class="subseccion">
+        <div class="tituloFila">Doble boca</span></div>
+        <div class="fila">
+            <button id="dobleBocaNo">No</button>
+            <button id="dobleBocaSi">Sí</button>
+        </div>
     </div>
 
     <!-- Contenedor dinámico Pedal + Maneta -->
-    <div id="filaPedalManeta" style="display: none;">
-        <div class="tituloFila">Pedal</div>
+<div class="subseccion" id="filaPedalManeta" style="display: none;">
+
+    <!-- Pedal -->
+    <div class="subseccion">
+        <div class="tituloFila">
+            <span class="tituloTexto">Pedal</span>
+        </div>
         <div class="fila">
             <button id="pedalNo">No</button>
             <button id="pedal1">Fontal</button>
             <button id="pedal2">Trasero</button>
             <button id="pedal3">Doble</button>
         </div>
+    </div>
 
-        <div class="tituloFila">Maneta</div>
+    <!-- Maneta -->
+    <div class="subseccion">
+        <div class="tituloFila">
+            <span class="tituloTexto">Maneta</span>
+        </div>
         <div class="fila">
             <button id="manetaNo">No</button>
             <button id="maneta1">Fontal</button>
@@ -101,98 +132,153 @@
         </div>
     </div>
 
-    <!-- Color RAL del contenedor -->
-    <div class="tituloFila">Color RAL del contenedor</div>
-    <div class="fila">
-        <button id="gris7005">Gris 7005</button>
-        <button id="gris7035">Gris 7035</button>
-        <button id="gris7037">Gris 7037</button>
-        <button id="gris7040">Gris 7040</button>
-        <button id="azul5002">Azul 5002</button>
-        <button id="amarillo1018">Amarillo 1018</button>
-        <button id="amarillo1021">Amarillo 1021</button>
-        <button id="verde6005">Verde 6005</button>
-        <button id="verde6018">Verde 6018</button>
-        <button id="verde6032">Verde 6032</button>
-        <button id="marron8011">Marrón 8011</button>
-        <button id="marron8024">Marrón 8024</button>
+    <!-- Cerradura electrónica -->
+    <div class="subseccion">
+        <div class="tituloFila">
+            <span class="tituloTexto">Cerradura electrónica</span>
+        </div>
+        <div class="fila">
+            <button id="cerraduraNo">No</button>
+            <button id="cerradura0">*Estándar</button>
+            <button id="cerradura1">*Moba</button>
+            <button id="cerradura2">*Distromel</button>
+            <button id="cerradura3">*EMZ</button>
+        </div>
     </div>
-
 </div>
 
+    <!-- Color RAL del contenedor -->
+    <div class="seccion">
+        <div class="subseccion">
+            <div class="tituloFila">Color RAL del contenedor</span></div>
+            <div class="fila">
+                <button id="gris7005">Gris 7005</button>
+                <button id="gris7035">Gris 7035</button>
+                <button id="gris7037">Gris 7037</button>
+                <button id="gris7040">Gris 7040</button>
+                <button id="azul5002">Azul 5002</button>
+                <button id="amarillo1018">Amarillo 1018</button>
+                <button id="amarillo1021">Amarillo 1021</button>
+                <button id="verde6005">Verde 6005</button>
+                <button id="verde6018">Verde 6018</button>
+                <button id="verde6032">Verde 6032</button>
+                <button id="marron8011">Marrón 8011</button>
+                <button id="marron8024">Marrón 8024</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
 <!-- === Fin panel de botones moderno === -->
+
+
+<!-- Botón de pantalla completa de Verge3D -->
+<div id="fullscreen-button" class="fullscreen-button fullscreen-open" title="Toggle fullscreen mode"></div>
 
 
 <style>
 
 
+/* === Títulos de secciones y subsecciones === */
+.tituloFila {
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block; /* subrayado */
+    border-bottom: 2px solid black; /* subrayado para TODOS */
+    padding-bottom: 2px;             /* espacio del subrayado */
+}
+.tituloFila {
+    margin-bottom: var(--espacio-boton);
+}
+/* Si el título tiene .tituloTexto dentro, quitamos el subrayado largo */
+.tituloFila:has(.tituloTexto) {
+    border-bottom: none;
+}
+
+.tituloTexto {
+    border-bottom: 2px solid black;  /* subrayado solo bajo el texto */
+    display: inline;                  /* solo subrayado bajo el texto */
+}
+
+
+/* Ocultar elementos opcionales */
 #pedal2, #pedal3, #maneta2, #maneta3 { display: none; }
+#filaDinamicaContainer:empty { display: none; }
 
 
 /* Panel general */
 #panelBotones {
     position: absolute;           
-    top: 20px;
-    left: 20px;
+    top: 15px;
+    left: 15px;
     padding: 15px;                
     background-color: rgba(255,255,255,0.85);
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.9);
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    z-index: 10;
+    gap: var(--espacio-seccion); /* DISTANCIA CONTROLADA entre TODOS los elementos */
+    z-index: 1000;
     font-family: Arial, sans-serif;
 }
 
+/* === Variables de espaciado === */
+:root {
+    --espacio-boton: 3px;    /* separación título y botones */
+    --espacio-seccion: 13px; /* separación entre secciones completas */
+}
 
-/* Títulos fijos: siempre visibles, subrayados */
-#panelBotones > .tituloFila {
+/* Separación interna entre título y fila de botones */
+.seccion {
+    display: flex;
+    flex-direction: column;
+    gap: var(--espacio-boton);   /* distancia entre título y botones dentro de la sección */
+}
+
+/* Espacio entre subsecciones, incluyendo las dinámicas */
+.subseccion {
+    display: flex;
+    flex-direction: column;
+    gap: var(--espacio-boton); /* controla espacio entre bloques grandes/secciones */
+}
+
+/* Ajuste especial para la primera subsección para no añadir margen extra arriba */
+.seccion > .subseccion:first-child {
+    margin-top: 0;
+}
+
+/* --- Títulos de todas las secciones --- */
+.tituloFila {
     font-weight: bold;
     font-size: 14px;
-    margin-top: 6px;       /* espacio sobre el título */
-    margin-bottom: 0px;    /* espacio debajo del título */
-    border-bottom: 2px solid black; /* subrayado */
-    padding-bottom: 1px;    /* separa el texto de la línea */
+    display: inline-block;      /* subrayado solo bajo el texto si tiene .tituloTexto */
+    padding-bottom: 2px;        /* espacio para subrayado */
+    margin-top: var(--espacio-seccion); /* distancia respecto a la sección anterior */
 }
 
-
-/* Títulos dinámicos: pueden desaparecer, no subrayados */
-#filaFraccion .tituloFila,
-#filaPedalManeta .tituloFila {
-    font-weight: bold;
-    font-size: 14px;
-    margin-top: 8px;
-    margin-bottom: 2px;
-    border-bottom: none;   /* nada de subrayado */
+/*
+#filaFraccion .tituloTexto,
+#filaPedalManeta .tituloTexto {
+    display: inline;             
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
 }
+*/
 
-
-/* Filas de botones: separación consistente con título */
-#panelBotones .fila {
-    display: grid;
-    grid-template-columns: repeat(4, 90px);
-    grid-gap: 9px;
-    margin-top: 7px;       /* separación del título superior */
-    margin-bottom: 0px;    /* separación con el siguiente título */
-}
-
-
-/* Filas de botones */
+/* Botones */
 .fila {
     display: grid;
     grid-template-columns: repeat(4, 90px);
-    grid-gap: 10px;
-    margin-bottom: 3px; 
+    grid-gap: var(--espacio-boton);  /* distancia entre botones dentro de la fila */
+    margin: 0;
+    padding: 0;
 }
 
-
-/* Espacio extra entre título y fila de botones */
-#panelBotones .fila {
-    margin-top: 6px;        /* separa del título superior */
-    margin-bottom: 0px;     
+/* Estado oculto dinámico */
+.fila[style*="display: none"], 
+.seccion[style*="display: none"] {
+    display: none !important; /* mantiene el hueco colapsado */
 }
-
 
 /* Estilo y tamaño de los botones */
 .fila button {
@@ -200,24 +286,87 @@
     height: 40px;
     background-color: white;
     border: 1px solid #000;
-    cursor: pointer;
-    transition: all 0.2s;
-    font-size: 12px;
     border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
     outline: none;
+    transition: all 0.2s;
 }
 
-.fila button:hover { background-color: lightgray; }
-
-.fila button.activo { background-color: lightgray; }
+.fila button:hover,
+.fila button.activo {
+    background-color: lightgray;
+}
 
 .fila button:active {
     transform: translateY(2px);
     box-shadow: inset 0 2px 4px rgba(0,0,0,1);
 }
 
-#filaDinamicaContainer:empty { display: none; }
-/* Álvaro Ruiz de Pedro */
+/* Filas de botones y espacio botones*/
+.fila {
+    display: grid;
+    grid-template-columns: repeat(4, 90px);	/* columnas, nº pixeles */
+    grid-gap: 6px; 				/* espaciado entre botones */
+}
+
+
+/* Al pasar el ratón por encima del botón */
+.fila button:hover { background-color: lightgray; }
+.fila button.activo { background-color: lightgray; }
+/*ÁlvaroRuizdePedro*/
+.fila button:active {
+    transform: translateY(2px);
+    box-shadow: inset 0 2px 4px rgba(0,0,0,1);
+}
+
+
+/* Contenedores dinámicos */
+#filaFraccion,
+#filaPedalManeta {
+    display: flex;
+    flex-direction: column;
+    gap: var(--espacio-boton); /* igual que las subsecciones normales */
+    margin-top: 0;
+}
+
+/* Filas dentro de contenedores dinámicos */
+#filaFraccion .fila,
+#filaPedalManeta .fila {
+    display: grid;
+    grid-template-columns: repeat(4, 90px);
+    grid-gap: 7px;   /* espacio entre botones */
+    margin: 0;
+    padding: 0;
+}
+
+/* Títulos dentro de contenedores dinámicos (Pedal/Maneta/Cerradura y Fracción) */
+#filaPedalManeta .tituloFila,
+#filaFraccion .tituloFila {
+    display: flex;               /* igual altura que secciones fijas */
+    align-items: baseline;       /* mantiene el texto alineado */
+    padding-bottom: 2px;
+    margin-bottom: var(--espacio-boton); /* misma separación con fila */
+}
+
+#filaFraccion .tituloTexto,
+#filaPedalManeta .tituloTexto {
+    display: inline;             /* subrayado solo bajo el texto */
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
+}
+
+
+/* Filas de botones dentro de contenedores dinámicos */
+#filaFraccion .fila,
+#filaPedalManeta .fila {
+    display: grid;
+    grid-template-columns: repeat(4, 90px);
+    grid-gap: 7px;   /* espacio entre botones */
+}
+
+
+
 </style>
 
 
@@ -238,8 +387,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Mostrar/Ocultar según tipo de boca
     function actualizarBoca(tipo) {
-        filaFraccion.style.display = (tipo === 'calibrada') ? 'block' : 'none';
-        filaPedalManeta.style.display = (tipo !== 'calibrada') ? 'block' : 'none';
+        if (tipo === 'calibrada') {
+            filaFraccion.style.display = 'block';
+            filaPedalManeta.style.display = 'none';
+        } else if (tipo === 'oscilante') {
+            filaFraccion.style.display = 'none';
+            filaPedalManeta.style.display = 'none';
+        } else {
+            filaFraccion.style.display = 'none';
+            filaPedalManeta.style.display = 'block';
+        }
     }
 
 
@@ -263,12 +420,14 @@ document.addEventListener('DOMContentLoaded', () => {
     setupBotones(botonesBocas);
 
 
-    // Configurar filas dinámicas
+    // Configurar filas dinámicas y que se marquen los botones cuando los pulsas
     setupBotones(['papel', 'envases', 'vidrio', 'organico']);
     setupBotones(['F90', 'dobleGancho', 'kinshofer']);
+    setupBotones(['serigrafiaNo', 'serigrafiaSi']);
     setupBotones(['dobleBocaNo', 'dobleBocaSi']);
     setupBotones(['pedalNo', 'pedal1', 'pedal2', 'pedal3']);
     setupBotones(['manetaNo', 'maneta1', 'maneta2', 'maneta3']);
+    setupBotones(['cerraduraNo','cerradura0', 'cerradura1', 'cerradura2', 'cerradura3']);
     setupBotones(['gris7005', 'gris7035', 'gris7037', 'gris7040', 'azul5002', 'amarillo1018', 'amarillo1021', 'verde6005', 'verde6018', 'verde6032', 'marron8011', 'marron8024']);
 
 
@@ -276,27 +435,45 @@ document.addEventListener('DOMContentLoaded', () => {
     const dobleBocaSi = document.getElementById('dobleBocaSi');
     const dobleBocaNo = document.getElementById('dobleBocaNo');
 
-
     dobleBocaSi.addEventListener('click', () => {
         pedal2.style.display = 'block';
         pedal3.style.display = 'block';
         maneta2.style.display = 'block';
         maneta3.style.display = 'block';
+
+    // Ocultar todas las cerraduras excepto "No"
+    const cerraduras = ['cerradura0', 'cerradura1', 'cerradura2', 'cerradura3'];
+    cerraduras.forEach(id => {
+        const btn = document.getElementById(id);
+        btn.style.display = 'none';
+        btn.classList.remove('activo'); // quitar activo si estaba seleccionado
     });
+
+    // Asegurar que "No" esté visible
+    document.getElementById('cerraduraNo').style.display = 'block';
+}); 
 
     dobleBocaNo.addEventListener('click', () => {
         [pedal2, pedal3, maneta2, maneta3].forEach(el => {
             el.style.display = 'none';
             el.classList.remove('activo');
         });
+
+    // Volver a mostrar todas las cerraduras
+    const cerraduras = ['cerradura0', 'cerradura1', 'cerradura2', 'cerradura3', 'cerraduraNo'];
+    cerraduras.forEach(id => {
+        const btn = document.getElementById(id);
+        btn.style.display = 'block';
     });
+  });
 });
+
+
 </script>
 
 
-
 <div id="fullscreen-button" class="fullscreen-button fullscreen-open" title="Toggle fullscreen mode"></div>
-</div>
+
 
 </body>
 </html>

@@ -1,6 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="Init" type="InitTab" active="false" scrollx="19.999999999999773" scrolly="0" scale="0.9"></tab>
-  <tab name="Botones" type="CommonTab" active="true" scrollx="-2462.452880859376" scrolly="1190.5379638671875" scale="1">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="Botones" type="CommonTab" active="true" scrollx="-616.2656570430261" scrolly="-785.0021714497695" scale="0.7740271358515166">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="HLP3UA5swObV~]e@}D/7">Doble boca activada</variable>
     </variables>
@@ -831,28 +831,44 @@
                 </shadow>
               </value>
               <next>
-                <block type="assignMaterial" id="@1,:C_*Wwu_=GWmygCa5">
+                <block type="assignMaterial" id=".4NH0:n:pSC*qH[=gbZe">
                   <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
                   <value name="VALUE2">
-                    <shadow type="materialList" id="D#_ud`t]N`H[N2(tsA5R">
-                      <field name="FIELDNAME">Gris7005</field>
+                    <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
                     </shadow>
+                    <block type="getObjectMaterial" id="{-2QkE:wzr)vrP$[d0/w">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                      <value name="VALUE">
+                        <shadow type="objectList" id="k$AXT#}$pQr[Kkk0!92l">
+                          <field name="FIELDNAME">Cuba 3m</field>
+                        </shadow>
+                      </value>
+                    </block>
                   </value>
                   <value name="VALUE1">
-                    <shadow type="objectList" id="b@H]pmyJpB{,^G{r9ZXQ">
+                    <shadow type="objectList" id=";{?*q(.b4s9e{Q-+|S(|">
                       <field name="FIELDNAME">Oscilante</field>
                     </shadow>
                   </value>
                   <next>
-                    <block type="assignMaterial" id="OG0?S=/ApLg`mw6ac1kN">
+                    <block type="assignMaterial" id="]Z;y@xR+M736?^88,%n-">
                       <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
                       <value name="VALUE2">
-                        <shadow type="materialList" id="~zzLKv;kl6Cmh.+MYy_F">
-                          <field name="FIELDNAME">Gris7005</field>
+                        <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
                         </shadow>
+                        <block type="getObjectMaterial" id="HC2Z3S/)LpUh^{CL-`kb">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                          <value name="VALUE">
+                            <shadow type="objectList" id="lGGp`,VYbdVxCfe=/R:u">
+                              <field name="FIELDNAME">Cuba 3m</field>
+                            </shadow>
+                          </value>
+                        </block>
                       </value>
                       <value name="VALUE1">
-                        <shadow type="objectList" id="W,99[b_sY+jwr{i-,QT~">
+                        <shadow type="objectList" id="(L{v9/J#iiSqHg0?tb!@">
                           <field name="FIELDNAME">Oscilante2</field>
                         </shadow>
                       </value>
@@ -900,28 +916,44 @@
                     </shadow>
                   </value>
                   <next>
-                    <block type="assignMaterial" id="P`#4F7sF@XUl?z3JptsD">
+                    <block type="assignMaterial" id="7`Pp207xCNfCB0JE-_/%">
                       <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
                       <value name="VALUE2">
-                        <shadow type="materialList" id="ysN@X-.CD,!T@F21vOpC">
-                          <field name="FIELDNAME">Gris7035</field>
+                        <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
                         </shadow>
+                        <block type="getObjectMaterial" id="tKhA=|kY8,hoCIS)W[9.">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                          <value name="VALUE">
+                            <shadow type="objectList" id="qqtkj_`y5/hS?8vB?KN_">
+                              <field name="FIELDNAME">Cuba 3m</field>
+                            </shadow>
+                          </value>
+                        </block>
                       </value>
                       <value name="VALUE1">
-                        <shadow type="objectList" id="L@6uB4$rza]cgWBuQDO7">
+                        <shadow type="objectList" id="0QVwTntm!T]_W06%[AOe">
                           <field name="FIELDNAME">Oscilante</field>
                         </shadow>
                       </value>
                       <next>
-                        <block type="assignMaterial" id="4r$|-bh;|O:ml%1wRLEH">
+                        <block type="assignMaterial" id="|!b=L`H;z3dF(A*FU7Tz">
                           <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
                           <value name="VALUE2">
-                            <shadow type="materialList" id="mB!I?}N`~,KKJs;La4_B">
-                              <field name="FIELDNAME">Gris7035</field>
+                            <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
                             </shadow>
+                            <block type="getObjectMaterial" id="^88NI5JR;K^IrXcW/{ta">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                              <value name="VALUE">
+                                <shadow type="objectList" id="4z/$tj@x.R|VRh_lUWo{">
+                                  <field name="FIELDNAME">Cuba 3m</field>
+                                </shadow>
+                              </value>
+                            </block>
                           </value>
                           <value name="VALUE1">
-                            <shadow type="objectList" id="dji;ALd+2K14a},^SRXb">
+                            <shadow type="objectList" id="sl~x`8:,D,qxJ%_U*w50">
                               <field name="FIELDNAME">Oscilante2</field>
                             </shadow>
                           </value>
@@ -969,28 +1001,44 @@
                         </shadow>
                       </value>
                       <next>
-                        <block type="assignMaterial" id="zlzIOcm3zG`owNP^_ozk">
+                        <block type="assignMaterial" id=";s|S;FwCx{^vJ.qpM9Zx">
                           <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
                           <value name="VALUE2">
-                            <shadow type="materialList" id="G`.q)VS:jpnv{79vZMd3">
-                              <field name="FIELDNAME">Gris7037</field>
+                            <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
                             </shadow>
+                            <block type="getObjectMaterial" id=";ix52}APhc@#~U_e=0R$">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                              <value name="VALUE">
+                                <shadow type="objectList" id="!r`lkIEKrj/=yes#dO;]">
+                                  <field name="FIELDNAME">Cuba 3m</field>
+                                </shadow>
+                              </value>
+                            </block>
                           </value>
                           <value name="VALUE1">
-                            <shadow type="objectList" id="a,`EOK6aZ`eoJ2cz(3-G">
+                            <shadow type="objectList" id="9)k#nyKFZA#y]vHI=0zf">
                               <field name="FIELDNAME">Oscilante</field>
                             </shadow>
                           </value>
                           <next>
-                            <block type="assignMaterial" id="WEq9SdMB0Z3`0rEZ4Wi_">
+                            <block type="assignMaterial" id="u82a%RZe;XOVqTjeQ4i?">
                               <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
                               <value name="VALUE2">
-                                <shadow type="materialList" id="(P|wzvy)9EAqb0)a}I|!">
-                                  <field name="FIELDNAME">Gris7037</field>
+                                <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
                                 </shadow>
+                                <block type="getObjectMaterial" id=",HUDUvCOE@ITwgRZ_,WF">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="82_Ho(zPT*oh%mUMvskN">
+                                      <field name="FIELDNAME">Cuba 3m</field>
+                                    </shadow>
+                                  </value>
+                                </block>
                               </value>
                               <value name="VALUE1">
-                                <shadow type="objectList" id="=f#bHErj~qon0Ql,diWH">
+                                <shadow type="objectList" id="LKZZtnsd?in!5QzxS@ya">
                                   <field name="FIELDNAME">Oscilante2</field>
                                 </shadow>
                               </value>
@@ -1038,28 +1086,44 @@
                             </shadow>
                           </value>
                           <next>
-                            <block type="assignMaterial" id="8^@5SMj]@))I%O~xSSd+">
+                            <block type="assignMaterial" id="?J;AGY+(.FkAvl)f=@N7">
                               <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
                               <value name="VALUE2">
-                                <shadow type="materialList" id="N;/!2KcLn2biVu0jvElN">
-                                  <field name="FIELDNAME">Gris7040</field>
+                                <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
                                 </shadow>
+                                <block type="getObjectMaterial" id="ToVAIEnVt_y!Wol/lc+B">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="HkNSAa8AD.*r4TKXm`n/">
+                                      <field name="FIELDNAME">Cuba 3m</field>
+                                    </shadow>
+                                  </value>
+                                </block>
                               </value>
                               <value name="VALUE1">
-                                <shadow type="objectList" id="Lp=yzM^(dir,6v;,tz9u">
+                                <shadow type="objectList" id="B2}AZSkcJH{/Xm$G]902">
                                   <field name="FIELDNAME">Oscilante</field>
                                 </shadow>
                               </value>
                               <next>
-                                <block type="assignMaterial" id="~n)+15v*rkkqjwRs+dDx">
+                                <block type="assignMaterial" id="l2X];rpai*LZJ|%SfU=r">
                                   <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
                                   <value name="VALUE2">
-                                    <shadow type="materialList" id=";S(Kf9=D0}f:EE;:K))x">
-                                      <field name="FIELDNAME">Gris7040</field>
+                                    <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                                      <field name="FIELDNAME">&lt;none&gt;</field>
                                     </shadow>
+                                    <block type="getObjectMaterial" id="%tWvy~GV[a?C{Fc)FyT#">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                                      <value name="VALUE">
+                                        <shadow type="objectList" id="y[JeHw0lj:_ENWQMKEdc">
+                                          <field name="FIELDNAME">Cuba 3m</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
                                   </value>
                                   <value name="VALUE1">
-                                    <shadow type="objectList" id="@s9{NWW,3sP);M+grj6#">
+                                    <shadow type="objectList" id="MCqn=0h_W429A.iK?}l^">
                                       <field name="FIELDNAME">Oscilante2</field>
                                     </shadow>
                                   </value>
@@ -1106,6 +1170,52 @@
                                   <field name="FIELDNAME">Cuba 3m doble boca</field>
                                 </shadow>
                               </value>
+                              <next>
+                                <block type="assignMaterial" id="cmt-;bT$Xl_tg/tVdN4Y">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                                  <value name="VALUE2">
+                                    <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                    </shadow>
+                                    <block type="getObjectMaterial" id="UmFKj*bPXh#15Zkq*W1f">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                                      <value name="VALUE">
+                                        <shadow type="objectList" id="[NgSgC}ZFb`eg61?H|Za">
+                                          <field name="FIELDNAME">Cuba 3m</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </value>
+                                  <value name="VALUE1">
+                                    <shadow type="objectList" id="/Q@)lNC$A2{Kkb.?7!UX">
+                                      <field name="FIELDNAME">Oscilante</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="assignMaterial" id="KEgbStl[xQw3#kC%=nAk">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                                      <value name="VALUE2">
+                                        <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                        </shadow>
+                                        <block type="getObjectMaterial" id="%w|WE.wK8QgVxsRPdyk,">
+                                          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                                          <value name="VALUE">
+                                            <shadow type="objectList" id="fu-=kwrJVZH(#eI}Ou|i">
+                                              <field name="FIELDNAME">Cuba 3m</field>
+                                            </shadow>
+                                          </value>
+                                        </block>
+                                      </value>
+                                      <value name="VALUE1">
+                                        <shadow type="objectList" id="ykPPdUsoc-9XXL=mOx5*">
+                                          <field name="FIELDNAME">Oscilante2</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
                             </block>
                           </next>
                         </block>
@@ -1171,6 +1281,52 @@
                                               <field name="FIELDNAME">Envase 3m lado2</field>
                                             </shadow>
                                           </value>
+                                          <next>
+                                            <block type="assignMaterial" id="oPr5L$(SGdDQ/uv0!bU]">
+                                              <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                                              <value name="VALUE2">
+                                                <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                                </shadow>
+                                                <block type="getObjectMaterial" id="hY[c$2XZ,!`gHZ^SF{{a">
+                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                                                  <value name="VALUE">
+                                                    <shadow type="objectList" id="[OhUIfj@=pKxr?3.BJ@X">
+                                                      <field name="FIELDNAME">Cuba 3m</field>
+                                                    </shadow>
+                                                  </value>
+                                                </block>
+                                              </value>
+                                              <value name="VALUE1">
+                                                <shadow type="objectList" id="XXU?,evDQTg-L8t`t[IL">
+                                                  <field name="FIELDNAME">Oscilante</field>
+                                                </shadow>
+                                              </value>
+                                              <next>
+                                                <block type="assignMaterial" id="/{_Y}FS{Jg5/X%q9.nk.">
+                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                                                  <value name="VALUE2">
+                                                    <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                                    </shadow>
+                                                    <block type="getObjectMaterial" id="K`bLrHSOek_ALG858,x3">
+                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                                                      <value name="VALUE">
+                                                        <shadow type="objectList" id="bd5!H%2vvh^bNo70?i1=">
+                                                          <field name="FIELDNAME">Cuba 3m</field>
+                                                        </shadow>
+                                                      </value>
+                                                    </block>
+                                                  </value>
+                                                  <value name="VALUE1">
+                                                    <shadow type="objectList" id="zCx1rQtgq`WM(t?r~7)e">
+                                                      <field name="FIELDNAME">Oscilante2</field>
+                                                    </shadow>
+                                                  </value>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </next>
                                         </block>
                                       </next>
                                     </block>
@@ -1240,6 +1396,52 @@
                                                   <field name="FIELDNAME">Envase 3m lado2</field>
                                                 </shadow>
                                               </value>
+                                              <next>
+                                                <block type="assignMaterial" id="B?_89[}ZML~pS}2h|(E?">
+                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                                                  <value name="VALUE2">
+                                                    <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                                    </shadow>
+                                                    <block type="getObjectMaterial" id=",i:iFzEttDfABr!/BXWk">
+                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                                                      <value name="VALUE">
+                                                        <shadow type="objectList" id=".FmgZV^Sd_|:#[H%Ak)p">
+                                                          <field name="FIELDNAME">Cuba 3m</field>
+                                                        </shadow>
+                                                      </value>
+                                                    </block>
+                                                  </value>
+                                                  <value name="VALUE1">
+                                                    <shadow type="objectList" id="]a2fg)}:b4gI{::65HC|">
+                                                      <field name="FIELDNAME">Oscilante</field>
+                                                    </shadow>
+                                                  </value>
+                                                  <next>
+                                                    <block type="assignMaterial" id="DDU7u6)w.K#GCMj3GJy~">
+                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                                                      <value name="VALUE2">
+                                                        <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                                        </shadow>
+                                                        <block type="getObjectMaterial" id="=6PkgnyVCRj~+VnS=kS#">
+                                                          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                                                          <value name="VALUE">
+                                                            <shadow type="objectList" id="SPwM@(5U)POYds]@SZiK">
+                                                              <field name="FIELDNAME">Cuba 3m</field>
+                                                            </shadow>
+                                                          </value>
+                                                        </block>
+                                                      </value>
+                                                      <value name="VALUE1">
+                                                        <shadow type="objectList" id="466,F(wsZoxx_,Ud`f*i">
+                                                          <field name="FIELDNAME">Oscilante2</field>
+                                                        </shadow>
+                                                      </value>
+                                                    </block>
+                                                  </next>
+                                                </block>
+                                              </next>
                                             </block>
                                           </next>
                                         </block>
@@ -1309,6 +1511,52 @@
                                                       <field name="FIELDNAME">Vidrio 3m lado2</field>
                                                     </shadow>
                                                   </value>
+                                                  <next>
+                                                    <block type="assignMaterial" id="kzT`fOZ^%J?di{zQdxo^">
+                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                                                      <value name="VALUE2">
+                                                        <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                                        </shadow>
+                                                        <block type="getObjectMaterial" id="4t[{{g+nEp3l)1-Hr$d[">
+                                                          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                                                          <value name="VALUE">
+                                                            <shadow type="objectList" id="Y]Ex_VgLZJi,SofB9^7$">
+                                                              <field name="FIELDNAME">Cuba 3m</field>
+                                                            </shadow>
+                                                          </value>
+                                                        </block>
+                                                      </value>
+                                                      <value name="VALUE1">
+                                                        <shadow type="objectList" id="(RS2Vyg0yyQMh*L,A05)">
+                                                          <field name="FIELDNAME">Oscilante</field>
+                                                        </shadow>
+                                                      </value>
+                                                      <next>
+                                                        <block type="assignMaterial" id="OGW$C3`U,#}i3.^ch6F9">
+                                                          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                                                          <value name="VALUE2">
+                                                            <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                                                              <field name="FIELDNAME">&lt;none&gt;</field>
+                                                            </shadow>
+                                                            <block type="getObjectMaterial" id="m~,.g:Nrmv/ty^Bs.Bja">
+                                                              <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                                                              <value name="VALUE">
+                                                                <shadow type="objectList" id="X7bFDaU}p`~,Fq+Ba05=">
+                                                                  <field name="FIELDNAME">Cuba 3m</field>
+                                                                </shadow>
+                                                              </value>
+                                                            </block>
+                                                          </value>
+                                                          <value name="VALUE1">
+                                                            <shadow type="objectList" id="@ZJlMF7*!WsId{Q_}y[J">
+                                                              <field name="FIELDNAME">Oscilante2</field>
+                                                            </shadow>
+                                                          </value>
+                                                        </block>
+                                                      </next>
+                                                    </block>
+                                                  </next>
                                                 </block>
                                               </next>
                                             </block>
@@ -1378,6 +1626,52 @@
                                                           <field name="FIELDNAME">Vidrio 3m lado2</field>
                                                         </shadow>
                                                       </value>
+                                                      <next>
+                                                        <block type="assignMaterial" id="mPl(]9GfwJW;5.T:KvuJ">
+                                                          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                                                          <value name="VALUE2">
+                                                            <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                                                              <field name="FIELDNAME">&lt;none&gt;</field>
+                                                            </shadow>
+                                                            <block type="getObjectMaterial" id="i)D?lL$,4@19j/20wg)Q">
+                                                              <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                                                              <value name="VALUE">
+                                                                <shadow type="objectList" id="YZ;~g!$u;|(rlBivi;*1">
+                                                                  <field name="FIELDNAME">Cuba 3m</field>
+                                                                </shadow>
+                                                              </value>
+                                                            </block>
+                                                          </value>
+                                                          <value name="VALUE1">
+                                                            <shadow type="objectList" id="O]0wN6_@%U^)0L^rKlZg">
+                                                              <field name="FIELDNAME">Oscilante</field>
+                                                            </shadow>
+                                                          </value>
+                                                          <next>
+                                                            <block type="assignMaterial" id="z}X]/$NOWpjwIX=kfuHD">
+                                                              <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                                                              <value name="VALUE2">
+                                                                <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                                                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                                                </shadow>
+                                                                <block type="getObjectMaterial" id="l,qhUDIxqRq.E?a^h%KL">
+                                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                                                                  <value name="VALUE">
+                                                                    <shadow type="objectList" id=";Hls=?._fKRK]v/csEL.">
+                                                                      <field name="FIELDNAME">Cuba 3m</field>
+                                                                    </shadow>
+                                                                  </value>
+                                                                </block>
+                                                              </value>
+                                                              <value name="VALUE1">
+                                                                <shadow type="objectList" id="[7blotB_zftOrZJo?u;A">
+                                                                  <field name="FIELDNAME">Oscilante2</field>
+                                                                </shadow>
+                                                              </value>
+                                                            </block>
+                                                          </next>
+                                                        </block>
+                                                      </next>
                                                     </block>
                                                   </next>
                                                 </block>
@@ -1447,6 +1741,52 @@
                                                               <field name="FIELDNAME">Vidrio 3m lado2</field>
                                                             </shadow>
                                                           </value>
+                                                          <next>
+                                                            <block type="assignMaterial" id="YI(O0n{B~,+oE-@B[b)}">
+                                                              <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                                                              <value name="VALUE2">
+                                                                <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                                                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                                                </shadow>
+                                                                <block type="getObjectMaterial" id="%Wy%sQSGuj,q~.?TgCkF">
+                                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                                                                  <value name="VALUE">
+                                                                    <shadow type="objectList" id="PGo7R$+ug/[pvj!|2U]w">
+                                                                      <field name="FIELDNAME">Cuba 3m</field>
+                                                                    </shadow>
+                                                                  </value>
+                                                                </block>
+                                                              </value>
+                                                              <value name="VALUE1">
+                                                                <shadow type="objectList" id="+,/TSB:)2^Hu+$^{QgIq">
+                                                                  <field name="FIELDNAME">Oscilante</field>
+                                                                </shadow>
+                                                              </value>
+                                                              <next>
+                                                                <block type="assignMaterial" id="F?+Oj!O@^,Pv$58a46h)">
+                                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                                                                  <value name="VALUE2">
+                                                                    <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                                                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                                                    </shadow>
+                                                                    <block type="getObjectMaterial" id=",Wf[p|@@^+8+)j${d#`T">
+                                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                                                                      <value name="VALUE">
+                                                                        <shadow type="objectList" id="`_nL@M|ho$C#aAra]i.}">
+                                                                          <field name="FIELDNAME">Cuba 3m</field>
+                                                                        </shadow>
+                                                                      </value>
+                                                                    </block>
+                                                                  </value>
+                                                                  <value name="VALUE1">
+                                                                    <shadow type="objectList" id="(xC?vW/A|kh_Spkx)A-H">
+                                                                      <field name="FIELDNAME">Oscilante2</field>
+                                                                    </shadow>
+                                                                  </value>
+                                                                </block>
+                                                              </next>
+                                                            </block>
+                                                          </next>
                                                         </block>
                                                       </next>
                                                     </block>
@@ -1516,6 +1856,52 @@
                                                                   <field name="FIELDNAME">Envase 3m lado2</field>
                                                                 </shadow>
                                                               </value>
+                                                              <next>
+                                                                <block type="assignMaterial" id="Sq)KIyz%Ei_SG2f=q5S6">
+                                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                                                                  <value name="VALUE2">
+                                                                    <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                                                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                                                    </shadow>
+                                                                    <block type="getObjectMaterial" id="m:*cLm;xp|[o]2r}3PlN">
+                                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                                                                      <value name="VALUE">
+                                                                        <shadow type="objectList" id="-.-a;mLwX7qSdTaw#D(1">
+                                                                          <field name="FIELDNAME">Cuba 3m</field>
+                                                                        </shadow>
+                                                                      </value>
+                                                                    </block>
+                                                                  </value>
+                                                                  <value name="VALUE1">
+                                                                    <shadow type="objectList" id="n/{d?lBCW@i:[4|#C:o@">
+                                                                      <field name="FIELDNAME">Oscilante</field>
+                                                                    </shadow>
+                                                                  </value>
+                                                                  <next>
+                                                                    <block type="assignMaterial" id="$?1d~kdx^0D=oPebbS)^">
+                                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                                                                      <value name="VALUE2">
+                                                                        <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                                                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                                                        </shadow>
+                                                                        <block type="getObjectMaterial" id="3xRs1Vlzmb0XIe;q[f9~">
+                                                                          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                                                                          <value name="VALUE">
+                                                                            <shadow type="objectList" id="dTWjZ5cJ@D~lU_Z1[y!Z">
+                                                                              <field name="FIELDNAME">Cuba 3m</field>
+                                                                            </shadow>
+                                                                          </value>
+                                                                        </block>
+                                                                      </value>
+                                                                      <value name="VALUE1">
+                                                                        <shadow type="objectList" id="CKPEb=b^qvqkN^?-c01M">
+                                                                          <field name="FIELDNAME">Oscilante2</field>
+                                                                        </shadow>
+                                                                      </value>
+                                                                    </block>
+                                                                  </next>
+                                                                </block>
+                                                              </next>
                                                             </block>
                                                           </next>
                                                         </block>
@@ -1585,6 +1971,52 @@
                                                                       <field name="FIELDNAME">Envase 3m lado2</field>
                                                                     </shadow>
                                                                   </value>
+                                                                  <next>
+                                                                    <block type="assignMaterial" id="uPMI@`!F-pQA4%}.dK**">
+                                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                                                                      <value name="VALUE2">
+                                                                        <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                                                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                                                        </shadow>
+                                                                        <block type="getObjectMaterial" id="4I%k)z;)AK#LnfSBLTt0">
+                                                                          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                                                                          <value name="VALUE">
+                                                                            <shadow type="objectList" id="ih2PdtA:WHMSUcyf(,CH">
+                                                                              <field name="FIELDNAME">Cuba 3m</field>
+                                                                            </shadow>
+                                                                          </value>
+                                                                        </block>
+                                                                      </value>
+                                                                      <value name="VALUE1">
+                                                                        <shadow type="objectList" id="%lw|TCYM)XK#E%7c`X.a">
+                                                                          <field name="FIELDNAME">Oscilante</field>
+                                                                        </shadow>
+                                                                      </value>
+                                                                      <next>
+                                                                        <block type="assignMaterial" id="rBtSZQ8DnEV]e;vk^bol">
+                                                                          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                                                                          <value name="VALUE2">
+                                                                            <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                                                                              <field name="FIELDNAME">&lt;none&gt;</field>
+                                                                            </shadow>
+                                                                            <block type="getObjectMaterial" id="-,c~M:bI6d%i^f^/3$0E">
+                                                                              <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                                                                              <value name="VALUE">
+                                                                                <shadow type="objectList" id=":SOFD?BXAciYA:@[)4E[">
+                                                                                  <field name="FIELDNAME">Cuba 3m</field>
+                                                                                </shadow>
+                                                                              </value>
+                                                                            </block>
+                                                                          </value>
+                                                                          <value name="VALUE1">
+                                                                            <shadow type="objectList" id="]s)6;OpC9SYvKXYh*KqV">
+                                                                              <field name="FIELDNAME">Oscilante2</field>
+                                                                            </shadow>
+                                                                          </value>
+                                                                        </block>
+                                                                      </next>
+                                                                    </block>
+                                                                  </next>
                                                                 </block>
                                                               </next>
                                                             </block>
@@ -1628,6 +2060,52 @@
                                                                   <field name="FIELDNAME">Cuba 3m doble boca</field>
                                                                 </shadow>
                                                               </value>
+                                                              <next>
+                                                                <block type="assignMaterial" id="}I+:J#+7SUl;7~hOn?1^">
+                                                                  <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                                                                  <value name="VALUE2">
+                                                                    <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                                                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                                                    </shadow>
+                                                                    <block type="getObjectMaterial" id="O](G/X)HJ:l7.o)Q}.[R">
+                                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                                                                      <value name="VALUE">
+                                                                        <shadow type="objectList" id="=O}S+}m$M-;SU8t,K]EW">
+                                                                          <field name="FIELDNAME">Cuba 3m</field>
+                                                                        </shadow>
+                                                                      </value>
+                                                                    </block>
+                                                                  </value>
+                                                                  <value name="VALUE1">
+                                                                    <shadow type="objectList" id="DhPVtp-[bSH)63FBy*nN">
+                                                                      <field name="FIELDNAME">Oscilante</field>
+                                                                    </shadow>
+                                                                  </value>
+                                                                  <next>
+                                                                    <block type="assignMaterial" id="S?OThttjDw=yo9IwkT*S">
+                                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+                                                                      <value name="VALUE2">
+                                                                        <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+                                                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                                                        </shadow>
+                                                                        <block type="getObjectMaterial" id="9}@e!E`fC[cxA3^a[XY,">
+                                                                          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+                                                                          <value name="VALUE">
+                                                                            <shadow type="objectList" id="TA)_^o@1yW5nLAs?Tpb?">
+                                                                              <field name="FIELDNAME">Cuba 3m</field>
+                                                                            </shadow>
+                                                                          </value>
+                                                                        </block>
+                                                                      </value>
+                                                                      <value name="VALUE1">
+                                                                        <shadow type="objectList" id="^[TR~y6f#9jh+$Orr)|(">
+                                                                          <field name="FIELDNAME">Oscilante2</field>
+                                                                        </shadow>
+                                                                      </value>
+                                                                    </block>
+                                                                  </next>
+                                                                </block>
+                                                              </next>
                                                             </block>
                                                           </next>
                                                         </block>
@@ -2409,7 +2887,51 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id=";-_1;S6UO1g|(VZJGjIO" x="510" y="690">
+    <block xmlns="https://developers.google.com/blockly/xml" type="assignMaterial" id="w~pW~$aU9JbHu,e`|Xgi" x="3510" y="470">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+      <value name="VALUE2">
+        <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="getObjectMaterial" id="4dHr-mq$}X~Y[q8zdP;*">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+          <value name="VALUE">
+            <shadow type="objectList" id="^|o/=9[}8Tny_0eWney$">
+              <field name="FIELDNAME">Cuba 3m</field>
+            </shadow>
+          </value>
+        </block>
+      </value>
+      <value name="VALUE1">
+        <shadow type="objectList" id="RsI,d=Oq8pbP0m:hHLJ|">
+          <field name="FIELDNAME">Oscilante</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="assignMaterial" id="eqS|Am$5;g+ndJBu:y#b">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false"></mutation>
+          <value name="VALUE2">
+            <shadow type="materialList" id="+[d_`vu7xk2b2;P9feMO">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="getObjectMaterial" id="~GF$2N1BDe(@o:DO?]V?">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" usematerialindex="false" useid="false"></mutation>
+              <value name="VALUE">
+                <shadow type="objectList" id="l?[-#?tg`Y]3:(2*;JIM">
+                  <field name="FIELDNAME">Cuba 3m</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="n:3of!$]uDnQ1fGk)c1Q">
+              <field name="FIELDNAME">Oscilante2</field>
+            </shadow>
+          </value>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id=";-_1;S6UO1g|(VZJGjIO" x="510" y="650">
       <field name="EVENT">click</field>
       <field name="PARENT">FALSE</field>
       <value name="ID">
@@ -2536,7 +3058,7 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id=",IWej[x)6O-B9ii8(T0h" x="1030" y="690">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id=",IWej[x)6O-B9ii8(T0h" x="1010" y="650">
       <field name="EVENT">click</field>
       <field name="PARENT">FALSE</field>
       <value name="ID">
@@ -2783,6 +3305,28 @@
                                                   </value>
                                                 </block>
                                               </statement>
+                                              <next>
+                                                <block type="controls_if" id="eMV!#sc0%l.i}w+{7L5d">
+                                                  <value name="IF0">
+                                                    <block type="isObjectVisible" id="1yvKsjx#@yP9y7nmy2_p">
+                                                      <value name="VALUE">
+                                                        <shadow type="objectList" id="nEo.^)-DKK4f#=QV3G,Z">
+                                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                                        </shadow>
+                                                      </value>
+                                                    </block>
+                                                  </value>
+                                                  <statement name="DO0">
+                                                    <block type="show" id=",bMI|]83zgaQ[uVS?IgW">
+                                                      <value name="VALUE">
+                                                        <shadow type="objectList" id="dNO5;#_aGS5w[%=tk=h#">
+                                                          <field name="FIELDNAME">&lt;none&gt;</field>
+                                                        </shadow>
+                                                      </value>
+                                                    </block>
+                                                  </statement>
+                                                </block>
+                                              </next>
                                             </block>
                                           </next>
                                         </block>
@@ -2804,7 +3348,7 @@
         </block>
       </statement>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="Z;wRNJaqRxm1|Q{1O$I/" x="1530" y="1150">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="Z;wRNJaqRxm1|Q{1O$I/" x="1870" y="650">
       <field name="EVENT">click</field>
       <field name="PARENT">FALSE</field>
       <value name="ID">
@@ -2918,7 +3462,7 @@
         </block>
       </next>
     </block>
-    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="^@~jFn3|gk9tSIuBCOo-" x="1530" y="1670">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="^@~jFn3|gk9tSIuBCOo-" x="1870" y="1110">
       <field name="EVENT">click</field>
       <field name="PARENT">FALSE</field>
       <value name="ID">
@@ -3032,6 +3576,60 @@
         </block>
       </next>
     </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="C4z`*WdoMF$,#}Bck@)4" x="1870" y="1570">
+      <field name="EVENT">click</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="jPMlAVoQ0}JzRZi`A@0n">
+          <field name="TEXT">cerradura1</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="hide" id="3@n1Sm_r:j)kpR2jM?}~">
+          <value name="VALUE">
+            <shadow type="objectList" id="2:V!rFbm##7~Y@b*RY5E">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="hide" id=",nT8z9HAx2u:F1sTo)A0">
+              <value name="VALUE">
+                <shadow type="objectList" id="CIPcs|A~VyuGW]KBonIL">
+                  <field name="FIELDNAME">&lt;none&gt;</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="hide" id="U.(?ETvw-p0s;o!PdgrW">
+                  <value name="VALUE">
+                    <shadow type="objectList" id="Q0gdK)/`$w=yjyhg9YF/">
+                      <field name="FIELDNAME">&lt;none&gt;</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="hide" id=":idY#AA$7Owi:F%nFhuG">
+                      <value name="VALUE">
+                        <shadow type="objectList" id="amniA^5tu2O*(O!$b@JZ">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="show" id="Ng3uSz{9?+eFv*bn-No.">
+                          <value name="VALUE">
+                            <shadow type="objectList" id="/)X3LB|aL3g=%JF`-5hu">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
   </tab>
-  <editorsettings viewport-x="1480" viewport-y="183" viewport-w="440" viewport-h="725.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+  <editorsettings viewport-x="1480" viewport-y="105" viewport-w="440" viewport-h="803.5" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
 </xml>
